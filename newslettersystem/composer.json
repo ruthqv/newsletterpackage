@@ -1,0 +1,31 @@
+{
+    "name": "newsletterpackage/newslettersystem",
+    "description": "newsletterpackage system",
+    "type": "package",
+    "version":"1.0.0",
+    "license": "MIT",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "newsletter\\newslettersystem\\NewsletterSystemServiceProvider"
+            ],
+            "aliases": {
+                "newsletter": "newsletter\\newslettersystem\\Facade"
+             }
+          }
+    },
+    "authors": [{
+        "name": "ruthqv",
+        "email": "rqvaquero@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "newsletter\\newslettersystem\\": "src/"
+
+        }
+    }
+}
