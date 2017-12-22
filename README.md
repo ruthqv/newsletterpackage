@@ -1,0 +1,2 @@
+Development package in a not stable way yet. Please, use only if you be sure to be able to make it compatible with your APP, or in a contributive way. It is only tested under specific App enviroment (Blade Layouts extensions, 'adminlittle' admin template etc).
+Don´t hesitate to contact me for more info.
