@@ -1,4 +1,10 @@
-<form action="https://dinamiq.us17.list-manage.com/subscribe/post?u=0dc7e9642eac1abc7bdc3d180&id=e0d9b7fff5" class="validate form-inline form-group" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+@if(env('NEWSLETTER') === true )
+<script id="mcjs">
+! function(c, h, i, m, p) { m = c.createElement(h), p = c.getElementsByTagName(h)[0], m.async = 1, m.src = i, p.parentNode.insertBefore(m, p) }(document, "script", "https://chimpstatic.com/mcjs-connected/js/users/0dc7e9642eac1abc7bdc3d180/8d32699e376224841ad9ec7e2.js");
+</script>
+
+
+<form action="https://webandwebs.us17.list-manage.com/subscribe/post?u=1194ececf5bf146001b116c42&amp;id=18ec8cd111" class="validate form-inline form-group" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
     {{ csrf_field() }}
                     <input class="required name form-control subscriptionname" id="mce-NAME" name="NAME" placeholder="name" type="text" value="" style=""/>
                     <input class="required email form-control subscriptionmail" id="mce-EMAIL" name="EMAIL" placeholder="email" type="email" value=""  style=""/>
@@ -22,3 +28,9 @@
 
 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[1]='NAME';ftypes[1]='text';fnames[0]='EMAIL';ftypes[0]='email';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 <!--End mc_embed_signup-->
+
+@endif
+
+
+
+
